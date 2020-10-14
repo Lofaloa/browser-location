@@ -68,6 +68,7 @@ function main() {
 	document.getElementById("stop").addEventListener("click", () => {
 		if (isTracking) {
 			navigator.geolocation.clearWatch(handlerId);
+			isTracking = false;
 			showMessage("Stoped to watch the position", 3000);
 		} else {
 			showMessage("Cannot stop tracking because it isn't.", 3000);
