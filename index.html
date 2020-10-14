@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Browser Location</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="./styles/layout.css">
+	</head>
+	<body onload="main()">
+		<h1>Browser Location</h1>
+
+		<div id="location">
+			<span><b>Latitude (decimal degrees): </b><span id="latitude"></span></span>
+			<span><b>Longitude (decimal degrees): </b><span id="longitude"></span></span>
+			<span><b>Altitude (meters): </b><span id="altitude"></span></span>
+			<span><b>Accuracy (meters): </b><span id="accuracy"></span></span>
+			<span><b>Altitude accuracy (meters): </b><span id="altitude-accuracy"></span></span>
+			<span><b>Heading (degrees): </b><span id="heading"></span></span>
+			<span><b>Speed (meters per second): </b><span id="speed"></span></span>
+		</div>
+
+		<div id="control">
+			<button id="start">Start</button>
+			<button id="stop">Stop</button>
+		</div>
+
+		<script src="./scripts/main.js"></script>
+	</body>
+</html>

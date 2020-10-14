@@ -1,0 +1,10 @@
+#location {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+#message {
+    margin: 1em;
+    color: red;
+}
